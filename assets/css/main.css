@@ -90,3 +90,146 @@ header{
     margin: 7px;
 }
 
+header{
+    background-color: #585858;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.nav-link:hover{
+    color:rgb(255, 205, 98);
+}
+.nav-link{
+    text-decoration: none;
+    color:#FFF;
+}
+.menu{
+    padding-left: 20em;
+}
+.form-inline{
+    padding-left: 16em;
+}
+.fa-newspaper{
+    font-size: 23px;
+    margin-top:16px;
+}
+.fa-exclamation-circle{
+    font-size: 23px;
+    margin-top:16px;
+}
+.fa-envelope{
+    font-size: 23px;
+    margin-top:16px;
+}
+.rounded-circle{
+    width:50px;
+    height: 50px;
+}
+/*header*/
+#menu{
+    background-color: aquamarine
+}
+#news{
+    background-color: tomato
+}
+#side{
+    background-color: blueviolet;
+}
+
+.text , .options{
+    text-align: center;
+}
+.text p{
+    font-size: 24px;
+}
+.options button{
+    width:100px;
+    height: 57px;
+}
+
+/* INICIO ESTILOS HEADER */
+header{
+   background-color: #585858 ;
+   height: 70px;
+}
+.nav-link:hover{
+   color:rgb(255, 205, 98);
+}
+.nav-link{
+   text-decoration: none;
+   color:#FFF;
+}
+.menu{
+   padding-left: 20em;
+}
+.form-inline{
+   padding-left: 16em;
+}
+.fa-newspaper{
+   font-size: 23px;
+   margin-top:16px;
+}
+.fa-exclamation-circle{
+   font-size: 23px;
+   margin-top:16px;
+}
+.fa-envelope{
+   font-size: 23px;
+   margin-top:16px;
+}
+.rounded-circle{
+   width:50px;
+   height: 50px;
+}
+/* FIN ESTILOS HEADER */
+
+#perfil {
+   /* background-color: red; */
+   text-align: center;
+}
+
+#portafolio {
+   background-color: blue;
+}
+#imgperfil {
+   border-radius: 50%;
+   width: 40%;
+   margin: 2em;
+}
+.btns-perfil {
+   text-align: center;
+}
+#img-contenedor img {
+   width: 14.3em;
+   height: 14.3em;
+}
+
+/* INICIO ZOOM PORTAFOLIO */
+/* Safari y Chrome *//* Firefox */ /* IE 9 *//* Opera */
+.portafolio-contenedor img {
+-webkit-transition:all .9s ease;
+-moz-transition:all .9s ease;
+-o-transition:all .9s ease;
+-ms-transition:all .9s ease;
+width:100%;
+}
+.portafolio-contenedor:hover img {
+-webkit-transform:scale(1.4);
+-moz-transform:scale(1.4);
+-ms-transform:scale(1.4);
+-o-transform:scale(1.4);
+transform:scale(1.4);
+} */
+.portafolio-contenedor {
+width:100px;
+height:100px;
+overflow:hidden;
+}
+
+/* INICIO MODAL 1 */
+
+.modal-content {
+   background-image: url("../img/ilus1-1.jpg");
+   background-size: cover;
+   height: 40em;
+}
