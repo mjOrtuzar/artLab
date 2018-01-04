@@ -1,3 +1,6 @@
+body{
+    background-color: #585858;
+}
 header{
     background-color: #585858;
     height: 70px;
@@ -38,12 +41,12 @@ header{
     background-color: aquamarine
 }
 #news{
-    background-color: tomato
+    background-color: transparent;
 }
 #side{
     background-color: blueviolet;
 }
-
+/*post*/
 .text , .options{
     text-align: center;
 }
@@ -54,3 +57,34 @@ header{
     width:100px;
     height: 57px;
 }
+/*oldPost*/
+#oldPost{
+    margin-top: 20px;
+}
+.oldpos{
+    margin-bottom:20px;
+}
+.card-body{
+    text-align: center
+}
+.data img{
+    width: 50px;
+    height: 50px;
+}
+.pos{
+    text-align: center;
+}
+.data{
+    float: left;
+}
+.eventos li img{
+    width:100px;
+    height: 100px;
+}
+.tagComent{
+    padding-top: 15px;
+}
+.tagComent li{
+    margin: 7px;
+}
+
