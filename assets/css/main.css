@@ -106,6 +106,7 @@ header{
 #perfil {
    /* background-color: red; */
    text-align: center;
+   padding-top: 5%;
 }
 
 #portafolio {
@@ -134,11 +135,11 @@ header{
 width:100%;
 }
 .portafolio-contenedor:hover img {
--webkit-transform:scale(1.4);
--moz-transform:scale(1.4);
--ms-transform:scale(1.4);
--o-transform:scale(1.4);
-transform:scale(1.4);
+-webkit-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-ms-transform:scale(1.2);
+-o-transform:scale(1.2);
+transform:scale(1.2);
 } */
 .portafolio-contenedor {
 width:100px;
@@ -164,7 +165,7 @@ overflow:hidden;
 }
 
 /* ROW NO GUTTERS */
-.row.no-gutters {
+/*.row.no-gutters {
   margin-right: 0;
   margin-left: 0;
 
@@ -174,3 +175,15 @@ overflow:hidden;
     padding-left: 0;
   }
 /* FIN ROW NO GUTTERS */
+/*incio galery-search*/
+#form-busqueda{
+    padding-top:10%;
+}
+.img-contenedor{
+    padding-top: 7%;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    margin: 4px;
+}
