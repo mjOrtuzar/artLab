@@ -147,9 +147,30 @@ overflow:hidden;
 }
 
 /* INICIO MODAL 1 */
-
-.modal-content {
-   background-image: url("../img/ilus1-1.jpg");
+.modal-content1 {
+   background-image: url("../img/ilus1.jpg");
    background-size: cover;
    height: 40em;
 }
+
+/* INICIO MODAL 2 */
+.modal-content2 {
+   background-image: url("../img/ilus2.jpg");
+   background-size: cover;
+   height: 40em;
+}
+.modal-footer {
+    background-color: white;
+}
+
+/* ROW NO GUTTERS */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+/* FIN ROW NO GUTTERS */
