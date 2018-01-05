@@ -35,13 +35,12 @@ header{
     width:50px;
     height: 50px;
 }
+
 #search-input{
     padding-left: 12em;
 }
-
 /*fin header*/ 
 /*inicio secciones noticias*/
-
 #menu{
     background-color: #f2f2f2;
 }
@@ -147,14 +146,12 @@ width:100px;
 height:100px;
 overflow:hidden;
 }
-
 /* INICIO MODAL 1 */
 .modal-content1 {
    background-image: url("../img/ilus1.jpg");
    background-size: cover;
    height: 40em;
 }
-
 /* INICIO MODAL 2 */
 .modal-content2 {
    background-image: url("../img/ilus2.jpg");
@@ -164,18 +161,6 @@ overflow:hidden;
 .modal-footer {
     background-color: white;
 }
-
-/* ROW NO GUTTERS */
-/*.row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  & > [class^="col-"],
-  & > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-/* FIN ROW NO GUTTERS */
 /*incio galery-search*/
 #form-busqueda{
     padding-top:10%;
@@ -188,6 +173,7 @@ overflow:hidden;
     height: 300px;
     margin: 4px;
 }
+
 .input{
     margin-left: 6px;
 }
@@ -202,4 +188,8 @@ overflow:hidden;
 }
 .btn-container{
     text-align: center;
+}
+#section-principal {
+    padding-top: 5em;
+    margin-top: 3em;
 }
