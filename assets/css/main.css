@@ -38,7 +38,7 @@ header{
     width:50px;
     height: 50px;
 }
-/*fin header*/ 
+/*fin header*/
 /*inicio secciones noticias*/
 
 #menu{
@@ -165,7 +165,11 @@ overflow:hidden;
 }
 
 /* ROW NO GUTTERS */
+<<<<<<< Updated upstream
 /*.row.no-gutters {
+=======
+/* .row.no-gutters {
+>>>>>>> Stashed changes
   margin-right: 0;
   margin-left: 0;
 
@@ -173,8 +177,9 @@ overflow:hidden;
   & > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-  }
+  } */
 /* FIN ROW NO GUTTERS */
+<<<<<<< Updated upstream
 /*incio galery-search*/
 #form-busqueda{
     padding-top:10%;
@@ -187,3 +192,10 @@ overflow:hidden;
     height: 300px;
     margin: 4px;
 }
+=======
+
+#section-principal {
+    padding-top: 5em;
+    margin-top: 3em;
+}
+>>>>>>> Stashed changes
