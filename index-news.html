@@ -7,6 +7,8 @@
     <title>ArtLab</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/menuDesplegable.css">
+    <link rel="stylesheet" href="assets/css/mediaQ.css">
 
 </head>
 <body>
@@ -17,9 +19,8 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <form class="form-inline">
+                <form id="search-input" class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 <div class="collapse navbar-collapse menu" id="navbarNav">
                     <ul class="navbar-nav">
@@ -37,9 +38,69 @@
                         </li>
                     </ul>
                 </div>
+                <!-- menu desplegable -->
+                <div  id="menu"class="menu-hamburger">
+                    <button class="btn menu-btn"><i class="fas fa-bars"></i></button>
+                </div>
             </nav>
         </div>
     </header>
+
+    <!-- items menu desplegable movil -->
+
+    <div class="col-md-4-right">
+        <div id="menu-opc" class="menu-disable">
+            <div class="menu-desplegable">
+                <div class="user">
+                    <a class="nav-link" href="index-profile.html"><img class="rounded-circle"src="assets/img/perfil.jpg" alt=""></a>
+                </div>
+                <nav class="menu-color">
+                    <ul>
+                        <li class="d-inline">
+                            <i class="fab fa-wpforms"></i>
+                        </li>
+                        <li class="d-inline">foros</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="far fa-images"></i>
+                        </li>
+                        <li class="d-inline">galerias</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="fas fa-users"></i>
+                        </li>
+                        <li class="d-inline">comunidades</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="fas fa-star"></i>
+                        </li>
+                        <li class="d-inline">favoritos</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="fas fa-video"></i>
+                        </li>
+                        <li class="d-inline">en vivo</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="fas fa-paint-brush"></i>
+                        </li>
+                        <li class="d-inline">descubrir artistas</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="far fa-handshake"></i>
+                        </li>
+                        <li class="d-inline">colaboraciones</li>
+                        <hr>
+                        <li class="d-inline">
+                            <i class="far fa-calendar-alt"></i>
+                        </li>
+                        <li class="d-inline">eventos</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
     <section id="news">
         <div class="container-fluid">
             <div class="row">
@@ -86,7 +147,30 @@
                         <div class="card-body text">
                             <p>que publicaras hoy?</p> 
                         </div>
+                        <div class="comentario">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <div class="text-container">
+                                                <textarea class="txt" id="comment" cols="50" placeholder="Añade un comentario..."></textarea>        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md">
+                                            <div class="btn-container">
+                                                <button type="button" id="btn" onclick="add()"><i class="fa fa-plus" aria-hidden="true"></i>Agregar</button>
+                                            </div>
+                                    </div>
+                                </div>   
+                                     
+                        </div>
                         <div class="options">
+                            <button id="post-btn" class="btn btn-outline-primary">
+                                <i class="fas fa-font"></i>
+                                <p>text</p>
+                            </button>
                             <button class="btn btn-outline-primary">
                                 <i class="fas fa-paint-brush"></i>
                                 <p>draw</p>
@@ -104,9 +188,8 @@
                     </div>
 
                     <article>
-                        <div class="newPost">
-
-                        </div>
+                        <div id="cont"></div>
+                       
                             <div id="oldPost">
                                 <div class="card oldpos">
                                     <div class="card-body ">
@@ -265,11 +348,13 @@
     
 
 
-
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="assets/js/query.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script src="https://use.fontawesome.com/7873633050.js"></script>
 </body>
 </html>
 

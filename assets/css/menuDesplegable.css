@@ -1,0 +1,21 @@
+#menu-opc{
+   background-color: #585858; 
+   height: 100vh; 
+}
+.menu-disable{
+    display: none;
+}
+.enableMenu{
+    display:block;
+}
+.menu-color{
+    color:#fff;
+}
+.menu-btn{
+    background-color: #585858;
+    border:none;
+    border-radius:0;
+}
+.fa-bars{
+    color: #fff;
+}

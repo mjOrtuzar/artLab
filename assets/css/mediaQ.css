@@ -1,0 +1,66 @@
+@media screen and (min-width:768px) and (max-width:940px){
+    #menu{
+        padding-top: 7px;
+    }
+    #side{
+        padding-top: 7px;
+    }
+    #search-input{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    .menu-hamburger{
+        display:none;
+    }
+}
+
+@media only screen 
+and (min-width : 950px) {
+    .menu-hamburger{
+        display:none; 
+    }
+}
+@media only screen 
+and (min-width : 1824px) {
+    .menu-hamburger{
+        display: none;
+    }
+    .menu-disable{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:767px){
+    #submit{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #side{
+        display: none;
+    }
+    #search-input{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+    #post{
+        padding-top: 15%;
+    }
+    .menu-disable{
+        display:none;
+    }
+}
+
+@media only screen and(min-width:360px)and(max-width:767px){
+    #search-input{
+        display: none;
+    }
+    #navbar{
+        display: none;
+    }
+}
