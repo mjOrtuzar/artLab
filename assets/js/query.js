@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     setInterval(function(){ //animacion
         nextSlider();
-    },4000);
+    },static);
 
     //funciones
 
